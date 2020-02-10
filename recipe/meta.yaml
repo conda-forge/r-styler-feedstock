@@ -29,6 +29,7 @@ requirements:
     - r-cli >=1.1.0
     - r-magrittr >=1.0.1
     - r-purrr >=0.2.3
+    - r-r.cache >=0.14.0
     - r-rematch2 >=2.0.1
     - r-rlang >=0.1.1
     - r-rprojroot >=1.1
@@ -41,6 +42,7 @@ requirements:
     - r-cli >=1.1.0
     - r-magrittr >=1.0.1
     - r-purrr >=0.2.3
+    - r-r.cache >=0.14.0
     - r-rematch2 >=2.0.1
     - r-rlang >=0.1.1
     - r-rprojroot >=1.1
