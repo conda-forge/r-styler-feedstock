@@ -25,11 +25,11 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - r-r.cache >=0.14.0
     - r-backports >=1.1.0
     - r-cli >=1.1.0
-    - r-magrittr >=1.0.1
+    - r-magrittr >=2.0.0
     - r-purrr >=0.2.3
-    - r-r.cache >=0.14.0
     - r-rematch2 >=2.0.1
     - r-rlang >=0.1.1
     - r-rprojroot >=1.1
@@ -38,11 +38,11 @@ requirements:
     - r-xfun >=0.1
   run:
     - r-base
+    - r-r.cache >=0.14.0
     - r-backports >=1.1.0
     - r-cli >=1.1.0
-    - r-magrittr >=1.0.1
+    - r-magrittr >=2.0.0
     - r-purrr >=0.2.3
-    - r-r.cache >=0.14.0
     - r-rematch2 >=2.0.1
     - r-rlang >=0.1.1
     - r-rprojroot >=1.1
@@ -57,10 +57,11 @@ test:
 
 about:
   home: https://github.com/r-lib/styler
-  license: GPL-3
+  license: MIT
   summary: Pretty-prints R code without changing the user's formatting intent.
-  license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_family: MIT
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
 
 extra:
   recipe-maintainers:
