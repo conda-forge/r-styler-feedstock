@@ -3,7 +3,7 @@ About r-styler
 
 Home: https://github.com/r-lib/styler
 
-Package license: GPL-3
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-styler-feedstock/blob/master/LICENSE.txt)
 
