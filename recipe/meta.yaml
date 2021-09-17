@@ -1,4 +1,4 @@
-{% set version = "1.5.1" %}
+{% set version = "1.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/styler_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/styler/styler_{{ version }}.tar.gz
-  sha256: 8c3243bf1bb9b07ca25287bc0309f6374b91bfb7e2fcb6c8c171f68aca9f7a87
+  sha256: 301a9df4d4078a31fad72d808d0db23cff5d199c059501b5dd5da9ba3b0e137d
 
 build:
   merge_build_host: true  # [win]
