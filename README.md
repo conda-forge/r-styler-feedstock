@@ -1,11 +1,11 @@
-About r-styler
-==============
+About r-styler-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-styler-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/r-lib/styler
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-styler-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pretty-prints R code without changing the user's formatting intent.
 
